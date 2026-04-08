@@ -50,7 +50,7 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="/Velora">
         <div className="fakeheader"></div>
         <Header onClick={()=> showResultProducts()}
                 results={results} 
