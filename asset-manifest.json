@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Velora/static/css/main.84826186.css",
+    "main.js": "/Velora/static/js/main.d7831c8c.js",
+    "static/js/453.d0548cb4.chunk.js": "/Velora/static/js/453.d0548cb4.chunk.js",
+    "static/media/newLogo.png": "/Velora/static/media/newLogo.b1ffcb500e5185cceade.png",
+    "index.html": "/Velora/index.html",
+    "main.84826186.css.map": "/Velora/static/css/main.84826186.css.map",
+    "main.d7831c8c.js.map": "/Velora/static/js/main.d7831c8c.js.map",
+    "453.d0548cb4.chunk.js.map": "/Velora/static/js/453.d0548cb4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.84826186.css",
+    "static/js/main.d7831c8c.js"
+  ]
+}
