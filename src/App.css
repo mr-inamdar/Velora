@@ -1800,3 +1800,117 @@ html {
     align-self: stretch; /* Button stretches to full width on mobile */
   }
 }
+
+
+.user-container {
+  position: relative;
+  cursor: pointer;
+}
+
+.user-container i {
+  font-size: 1rem;
+}
+
+/* Dropdown box */
+.user-dropdown {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  width: 260px;
+  background: #fff;
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  z-index: 100;
+  animation: fadeIn 0.2s ease-in-out;
+}
+
+/* Login UI */
+.login-box h3 {
+  margin-bottom: 10px;
+}
+
+.login-box input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.login-box input:focus {
+  border-color: #000;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  background: black;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Profile UI */
+.profile-box {
+  text-align: left;
+}
+
+.profile-top {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  background: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-weight: bold;
+}
+
+.profile-box button {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  background: red;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* Image preview */
+.preview-img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/* Profile image */
+.avatar-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}

@@ -38,7 +38,177 @@ const CATEGORIESIMG = [
 ];
 // kaam ki link https://i.pinimg.com/736x/6b/9c/30/6b9c30bd4b3062e87c4d3e5a2d2852d7.jpg
 const PROLIST = [
+        // {
+        //         name: "Embroidered Suit",
+        //         img: "https://i.pinimg.com/736x/4d/41/29/4d41294e879cd4c6b7cd0a70166b3ba6.jpg",
+        //         homepage: "",
+        //         price: "3499₹",
+        //         brand: "Aurelia",
+        //         category: [101]
+        // },
         
+        // {
+        //         name: "Festive Wear Kurti",
+        //         img: "https://i.pinimg.com/736x/9b/e7/bf/9be7bf970887b73ac5f2fb0184ac9fc0.jpg",
+        //         homepage: "Y",
+        //         price: "1899₹",
+        //         brand: "Indya",
+        //         category: [101]
+        // },
+        // {
+        //         name: "Casual Daily Wear Kurti",
+        //         img: "https://i.pinimg.com/736x/46/37/de/4637de8e22e56af86281c73147b234a7.jpg",
+        //         homepage: "Y",
+        //         price: "899₹",
+        //         brand: "Max",
+        //         category: [101]
+        // },
+        // {
+        //         name: "Silk Blend Suit",
+        //         img: "https://i.pinimg.com/474x/14/a3/f3/14a3f36a9ed891d9a5680345f9bc9383.jpg",
+        //         homepage: "",
+        //         price: "3999₹",
+        //         brand: "Biba",
+        //         category: [100]
+        // },
+        // {
+        //         name: "Embroidered Suit",
+        //         img: "https://i.pinimg.com/736x/54/62/36/54623611037c020a10b95b26553a8a91.jpg",
+        //         homepage: "",
+        //         price: "3499₹",
+        //         brand: "Aurelia",
+        //         category: [100]
+        // },
+        
+        // {
+        //         name: "Festive Wear Kurti",
+        //         img: "https://i.pinimg.com/originals/3a/5d/4e/3a5d4e67630b5b2ae006660c53c382ac.png",
+        //         homepage: "Y",
+        //         price: "1899₹",
+        //         brand: "Indya",
+        //         category: [100]
+        // },
+        // {
+        //         name: "Casual Daily Wear Kurti",
+        //         img: "https://i.pinimg.com/736x/0f/4b/1f/0f4b1ff65a7c35e4459b62ac986dadd8.jpg",
+        //         homepage: "Y",
+        //         price: "899₹",
+        //         brand: "Max",
+        //         category: [100]
+        // },
+        // {
+        //         name: "Silk Blend Suit",
+        //         img: "https://i.pinimg.com/736x/e1/3e/de/e13ede3672504336e4e7f096db7dcedf.jpg",
+        //         homepage: "",
+        //         price: "3999₹",
+        //         brand: "Biba",
+        //         category: [100]
+        // },
+        
+        {
+                "name": "Black Chanderi Embroidered Pathani Set",
+                "img": "https://i.pinimg.com/736x/4d/41/29/4d41294e879cd4c6b7cd0a70166b3ba6.jpg",
+                "homepage": "",
+                "price": "4599₹",
+                "brand": "W for Woman",
+                "category": [101]
+        },
+        {
+                "name": "Black Foil Print Anarkali Kurta",
+                "img": "https://i.pinimg.com/736x/9b/e7/bf/9be7bf970887b73ac5f2fb0184ac9fc0.jpg",
+                "homepage": "Y",
+                "price": "2199₹",
+                "brand": "Indya",
+                "category": [101]
+        },
+        {
+                "name": "White Cotton Lakhnavi Kurta",
+                "img": "https://i.pinimg.com/736x/46/37/de/4637de8e22e56af86281c73147b234a7.jpg",
+                "homepage": "Y",
+                "price": "1299₹",
+                "brand": "Global Desi",
+                "category": [101]
+        },
+        {
+                "img": "https://i.pinimg.com/474x/14/a3/f3/14a3f36a9ed891d9a5680345f9bc9383.jpg",
+                "homepage": "",
+                "name": "Solid Mandarin Collar Shirt & Jogger Pants",
+                "brand": "The Bear House",
+                "price": "1899₹",
+                "category": [100]
+        },
+        {
+                "img": "https://i.pinimg.com/736x/54/62/36/54623611037c020a10b95b26553a8a91.jpg",
+                "homepage": "",
+                "name": "Premium Cotton Striped Shirt & Tailored Pant",
+                "brand": "Van Heusen",
+                "price": "4299₹",
+                "category": [100]
+        },
+        {
+                "img": "https://i.pinimg.com/originals/3a/5d/4e/3a5d4e67630b5b2ae006660c53c382ac.png",
+                "name": "Linen Blend Casual Co-ord Set",
+                "brand": "Allen Solly",
+                "price": "2799₹",
+                "category": [100]
+        },
+        {
+                "img": "https://i.pinimg.com/736x/0f/4b/1f/0f4b1ff65a7c35e4459b62ac986dadd8.jpg",
+                "homepage": "Y",
+                "name": "Slim Fit Checkered Shirt & Chinos Combo",
+                "brand": "Peter England",
+                "price": "2199₹",
+                "category": [100]
+        },
+        {
+                "img": "https://i.pinimg.com/736x/e1/3e/de/e13ede3672504336e4e7f096db7dcedf.jpg",
+                "homepage": "",
+                "name": "Classic Fit Formal Shirt & Trouser Set",
+                "brand": "Raymond",
+                "price": "3499₹",
+                "category": [100]
+        },
+        {
+                "name": "Modern Classy Blue Tshart with Black pent",
+                "img": "https://i.pinimg.com/736x/d3/4d/74/d34d743e73c561dc0567a800fa48cc1d.jpg",
+                "homepage": "Y",
+                "price": "799₹",
+                "brand": "Max",
+                "category": [100]
+        },
+        {
+                "name": "Chex Shart With Black Pent",
+                "img": "https://i.pinimg.com/736x/81/e1/48/81e14815232862601d3c729207b95a33.jpg",
+                "homepage": "",
+                "price": "3599₹",
+                "brand": "Soch",
+                "category": [100]
+        },
+        {
+                "img": "https://i.pinimg.com/736x/d7/12/5b/d7125b40e701ab97b7032d9e9ae736eb.jpg",
+                "homepage": "",
+                "name": "Party Wear Satin Shirt & Formal Trousers",
+                "brand": "Blackberrys",
+                "price": "4999₹",
+                "category": [100]
+        },
+        {
+                "img": "https://i.pinimg.com/736x/2d/a2/47/2da247e6db4aeaa031a0751f3a6ba6d2.jpg",
+                "homepage": "Y",
+                "name": "Premium Oxford Shirt & Slim Fit Trousers",
+                "brand": "Louis Philippe",
+                "price": "3899₹",
+                "category": [100]
+        },
+        {
+                "img": "https://i.pinimg.com/736x/a6/23/ba/a623ba7a04f2baf0b57e616e2a029017.jpg",
+                "homepage": "",
+                "name": "Textured Resort Collar Shirt & Relaxed Pants",
+                "brand": "Rare Rabbit",
+                "price": "4599₹",
+                "category": [100]
+        },
+
         {
                 name: "Embroidered Suit",
                 img: "https://i.pinimg.com/736x/15/7f/63/157f63540cd0fa8254d16550695f4c01.jpg",
@@ -115,6 +285,22 @@ const PROLIST = [
                 category: [100]
         },
         {
+                name: "Cottern Kurti",
+                img: "https://i.pinimg.com/736x/a9/73/1c/a9731c8f19b3ccd2e52be2f40ecbed74.jpg",
+                homepage: "",
+                price: "1199₹",
+                brand: "Levi's",
+                category: [100]
+        },
+        {
+                name: "Classic Suit Salvar In Light Colour ",
+                img: "https://i.pinimg.com/736x/46/ae/6f/46ae6f78fa33e2ed44b2b46ac0738b99.jpg",
+                homepage: "Y",
+                price: "2499₹",
+                brand: "Peter England",
+                category: [101]
+        },
+        {
                 name: "Chanderi Kurti Customize outfit",
                 img: "https://i.pinimg.com/736x/37/4d/0f/374d0f951e70707e900f26af6be434c9.jpg",
                 homepage: "Y",
@@ -138,6 +324,7 @@ const PROLIST = [
                 brand: "Peter England",
                 category: [101]
         },
+
         {
                 name: "Festive Silk Kurta",
                 img: "https://i.pinimg.com/736x/e7/6f/8e/e76f8e05e5fc424e4198134f5d5a406b.jpg",
@@ -181,7 +368,7 @@ const PROLIST = [
         },
         {
                 name: "Embroidered Party Kurta",
-                img: "https://i.pinimg.com/736x/39/57/7f/39577f9b7de56c89dca90727995776e1.jpg",
+                img: "https://i.pinimg.com/736x/96/f1/c0/96f1c0fa3e4cd53dd6bd1f8a345ecb32.jpg",
                 homepage: "",
                 price: "3499₹",
                 brand: "Manyavar",
@@ -356,10 +543,26 @@ const PROLIST = [
                 category: [106]
         },
         {
+                name: "Cotton Printed Disiner Saree",
+                img: "https://i.pinimg.com/736x/c1/5f/e3/c15fe38f3af29d225cf98695f2d84e10.jpg",
+                homepage: "",
+                price: "1499₹",
+                brand: "Suta",
+                category: [106]
+        },
+        {
                 name: "Kanjeevaram Silk Saree",
                 img: "https://i.pinimg.com/736x/7e/8e/80/7e8e80a7d7eab85de11c4579a75ed573.jpg",
                 homepage: "",
                 price: "8999₹",
+                brand: "Kalamandir",
+                category: [106]
+        },
+        {
+                name: "Wedding Wear Silk Saree",
+                img: "https://i.pinimg.com/736x/aa/3d/44/aa3d44176cdf1b8e288db07946917bd8.jpg",
+                homepage: "Y",
+                price: "9999₹",
                 brand: "Kalamandir",
                 category: [106]
         },
@@ -430,6 +633,14 @@ const PROLIST = [
         {
                 name: "Festive Zari Saree",
                 img: "https://i.pinimg.com/736x/5d/99/ae/5d99aedc29b1676a7e9d2959069c06a3.jpg",
+                homepage: "",
+                price: "4199₹",
+                brand: "Mimosa",
+                category: [106]
+        },
+        {
+                name: "Festive Zari Saree In Dark Orange Colour",
+                img: "https://i.pinimg.com/736x/44/7e/f1/447ef16a75df4b7a21108ddd558ae5bc.jpg",
                 homepage: "",
                 price: "4199₹",
                 brand: "Mimosa",
@@ -628,7 +839,7 @@ const PROLIST = [
                 category: [105]
         },
         {
-                img: "https://i.pinimg.com/736x/0e/92/24/0e922472aff6b8c0488ccff51bc9b1dc.jpg",
+                img: "https://i.pinimg.com/1200x/0d/a3/1d/0da31d2bad5cc36b8dca0e8f5f1aacfd.jpg",
                 name: "Boys' 3-Piece Party Wear (Pant, Shirt, and Waistcoat)",
                 price: "1,800₹",
                 homepage: "",

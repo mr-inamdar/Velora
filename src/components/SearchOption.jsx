@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function SearchOption(props) {
   return (
@@ -8,7 +9,9 @@ export default function SearchOption(props) {
         <h4 id="name">{props.name}</h4>
         <p id="brandName">{props.brand}</p>
       </div>
-      <button id="veiwAllBtn" onClick={props.onClick} >Veiw All</button>
+      <Link to='/shop'>
+        <button id="veiwAllBtn" onClick={props.onClick} >Veiw All</button>
+      </Link>
     </div>
   )
 }
